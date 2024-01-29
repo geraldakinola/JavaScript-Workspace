@@ -119,3 +119,18 @@ else if (num < 100) {
     console.log ("medium");
 }
 else {console.log ("large");}
+
+//while and do loops
+
+let number = 0; 
+while (number <= 12) 
+{console.log (number);
+number = number + 4;}
+
+let result = 1;
+let counter = 0;
+while (counter<0) {
+    result = result * 2;
+    counter = counter + 1;
+}
+ console.log (result);
