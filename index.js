@@ -129,8 +129,21 @@ number = number + 4;}
 
 let result = 1;
 let counter = 0;
-while (counter<0) {
+while (counter < 0) {
     result = result * 2;
     counter = counter + 1;
 }
  console.log (result);
+
+
+ // for loop
+
+ for (let n = 1; n <= 20; n = n + 2) {
+    console.log (n);
+ }
+
+
+let r = 1; 
+for (x = 0; x < 10; x = x + 1) {r = r * 2;}
+
+console.log(r);
