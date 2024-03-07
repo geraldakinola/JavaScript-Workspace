@@ -167,4 +167,21 @@ const fruits = ['apple', 'pears', 'pawpaw'];
 fruits [3] = 'oranges';
 fruits.unshift ('Banana');
 fruits.push ('strawberries'); 
-console.log (fruits);
+console.log (Array.isArray);
+
+//Objects literals in JS
+
+const person = {
+    firstName: 'Gerald',
+    lastName: 'Akinola',
+    age: 30, 
+    hobbies: ['swimming', 'movies', 'driving'], 
+    address: {
+        street: '30 main st',
+        city: 'Boston',
+        state: 'MA'
+
+    }
+ 
+}
+   console.log (person.address.state)
