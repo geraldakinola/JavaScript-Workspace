@@ -155,3 +155,8 @@ const age = '12';
 const hello = `My name is ${names} and I am ${age}`;
 
 console.log (hello);
+
+
+//functions
+const s = "Hello World"
+console.log (s.substring(1,6));
