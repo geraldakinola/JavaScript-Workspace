@@ -159,4 +159,12 @@ console.log (hello);
 
 //functions
 const s = "Hello World"
-console.log (s.substring(1,6));
+console.log (s.substring(1,6).toUpperCase);
+
+//Arrays
+const fruits = ['apple', 'pears', 'pawpaw'];
+
+fruits [3] = 'oranges';
+fruits.unshift ('Banana');
+fruits.push ('strawberries'); 
+console.log (fruits);
