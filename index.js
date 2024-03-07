@@ -146,4 +146,12 @@ while (counter < 0) {
 let r = 1; 
 for (x = 0; x < 10; x = x + 1) {r = r * 2;}
 
-console.log(r);
+
+//Template Strings 
+
+const names = 'John';
+const age = '12'; 
+
+const hello = `My name is ${names} and I am ${age}`;
+
+console.log (hello);
